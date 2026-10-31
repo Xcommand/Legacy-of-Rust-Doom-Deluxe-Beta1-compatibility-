@@ -1,0 +1,17 @@
+Patch File for DeHackEd v3.0
+# ID1 + Doom Deluxe compatibility.
+# ID1 repurposed cell ammo as fuel and rewrote the pickup strings.
+# Fuel now lives in Doom Deluxe's FuelAmmo (see ZMAPINFO), so the shared
+# cell ammo and the strings go back to their Doom Deluxe values.
+Doom version = 2021
+Patch format = 6
+
+Ammo 2 (Cell)
+Max ammo = 300
+Per ammo = 20
+
+[STRINGS]
+GOTBFG9000 = You got the BFG9000!  Oh, yes.
+GOTCELL = Picked up a cell charge.
+GOTCELLBOX = Picked up a cell pack.
+GOTPLASMA = You got the plasma rifle!

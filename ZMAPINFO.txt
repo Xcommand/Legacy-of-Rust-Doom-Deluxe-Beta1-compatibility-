@@ -1,0 +1,15 @@
+// ID1 (Legacy of Rust) + Doom Deluxe Beta1
+// Load this pk3 after both id1.pk3 and Doom_Deluxe_Beta1.pk3.
+//
+// ID1 puts its new weapons and fuel on the old plasma/BFG/cell editor
+// numbers. Doom Deluxe remaps those numbers to its own classes, so the
+// pickups spawn as plasma rifle, BFG9000 and cell ammo instead.
+// Point them back at Doom Deluxe's native incinerator/calamity/fuel.
+
+DoomEdNums
+{
+	2004	= "VR_Incinerator"		// Incinerator pickup
+	2006	= "VR_CalamityBlade"	// Calamity Blade pickup
+	2047	= "FuelAmmo"			// Fuel Can, 10
+	17		= "Gascan"				// Fuel Tank, 50
+}
